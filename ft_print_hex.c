@@ -6,7 +6,7 @@
 /*   By: nkalyonc <nkalyonc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/21 12:53:14 by nkalyonc          #+#    #+#             */
-/*   Updated: 2022/04/21 14:10:50 by nkalyonc         ###   ########.fr       */
+/*   Updated: 2022/04/22 14:10:40 by nkalyonc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ void	ft_put_hex(unsigned int hex, const char format)
 	{
 		if (hex > 9 && format == 'x')
 			ft_putchar(hex - 10 + 'a');
-		if (hex > 9 && format == 'X')
+		else if (hex > 9 && format == 'X')
 			ft_putchar(hex - 10 + 'A');
 		else if (hex <= 9)
 			ft_putchar(hex + 48);

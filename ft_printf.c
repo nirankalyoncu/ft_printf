@@ -6,7 +6,7 @@
 /*   By: nkalyonc <nkalyonc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/21 12:53:31 by nkalyonc          #+#    #+#             */
-/*   Updated: 2022/04/21 14:15:49 by nkalyonc         ###   ########.fr       */
+/*   Updated: 2022/04/22 14:14:06 by nkalyonc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,13 +57,3 @@ int	ft_printf(const char *str, ...)
 	va_end(args);
 	return (len);
 }
-/* int main()
-{
-    int x = 123123123;
-    char y = 'a';
-    char *z = "niran";
-    int f = 123;
-    int k = -41;
-
-    printf("%c", '0');
-} */
